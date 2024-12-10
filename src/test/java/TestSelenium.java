@@ -56,9 +56,14 @@ public class TestSelenium {
         driver.get("https://www.rush-analytics.ru/");
         driver.findElement(By.linkText("Зарегистрироваться")).click();
 
-
+    }
+    @Test
+    public void should2ClickRegistry(){
+        driver.get("https://www.rush-analytics.ru/");
+        driver.findElement(By.linkText("Зарегистрироваться")).click();
 
     }
+
 
 
 }
